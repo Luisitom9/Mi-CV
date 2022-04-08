@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Righteous';
+
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    height: 100rem;
+    display: flex;
+}
+.datos{
+    width: 25rem;
+    background-image: url(./Imagenes/70-702213_fondos-de-pantalla-informtica.jpg);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+}
+.datos1{
+    margin-bottom: 5rem;
+    color: aliceblue;
+}
+div .yo{
+    margin: 1rem;
+    width: 15rem;
+    height: 20rem;
+    border-radius: 50%;
+    border: .2rem solid rgba(255, 251, 0, 0.966);
+}
+.datos1 span{
+    margin: 3rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+.datos1 p{
+    font-size: 1.5rem;
+}
+ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgba(25, 25, 112, 0.445);
+    height: 5rem;
+    margin: 1rem;
+}
+.portada{
+    padding: 10rem;
+    background-size: 100%;
+    background-image: url(./Imagenes/circuito-papel-pintado-2560x2048_33.jpg);
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    font-size: 3rem;
+}
+.bloques{
+    color: rgb(0, 0, 0);
+    display: flex;
+}
+.estu{
+
+    background-color: rgb(62, 103, 139);
+    border-radius: 1rem;
+}
+.color{
+    color: rgb(11, 165, 106);
+}
+nav ul li a:hover{
+    color: rgba(0, 0, 255, 0.37);
+}
+.ico1{
+    width: 6rem;
+    border-radius: 50%;
+    border: .5rem solid rgb(255, 230, 3);
+    margin: 3rem;
+}
+div h2{
+    color: rgba(255, 255, 255, 0.589);
+    text-decoration: underline;
+
+     }
+div h3{
+    color: rgba(255, 255, 255, 0.589);
+    text-decoration: underline;
+}
+.exp{
+    background-color: rgb(5, 62, 112);
+    border-radius: 1rem;
+}
+.pro{
+    background-color: rgb(4, 44, 80);
+    border-radius: 1rem;
+}
+
+@media(max-width:600px){
+    .datos{
+        display: none;
+    }
+    div .yo{
+        margin: 1rem;
+        width: 7.5rem;
+        height: 10rem;
+    }
+    .portada{
+        padding: 0;
+        display: flex;
+        justify-items: center;
+        background-color: rgb(1, 1, 66);
+    }
+    .iconos{
+        display: flex;
+    }
+    .estu{
+        margin: 2rem;
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .exp{
+        margin: 3rem;
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .pro{
+        margin: 3rem;
+        padding: 1rem;
+        font-size: 2rem;
+        }
+}
